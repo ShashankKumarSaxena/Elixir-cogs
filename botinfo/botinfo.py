@@ -10,7 +10,7 @@ class Info(commands.Cog):
     @commands.has_guild_permissions(send_messages=True)
     async def about(self,ctx):
         em = discord.Embed(description=" ",color=discord.Color.purple())
-        em.add_field(name="Instance owned by",value="Ronish:- Owner and developer of Elixir\nMicky:- Developer and host provider of Elixir\n𝓢𝓬𝔂𝓹𝓱𝓮𝓻:- Developer and cog creator of Elixir\nRj:- Management of Elixir",inline=False)
+        em.add_field(name="Instance owned by",value="**Ronish**:- Owner and developer of Elixir\n**Micky**:- Developer and host provider of Elixir\n**𝓢𝓬𝔂𝓹𝓱𝓮𝓻**:- Developer and cog creator of Elixir\n**Rj**:- Management of Elixir",inline=False)
         em.add_field(name="Python",value="3.8.5",inline=True)
         em.add_field(name="discord.py",value="1.5.1",inline=True)
         em.add_field(name="Red version",value="3.4.5",inline=True)
