@@ -10,4 +10,4 @@ with open(Path(__file__).parent / "info.json") as fp:
 
 
 async def setup(bot: Red) -> None:
-    bot.add_cog(NotQuiteNitro(bot))
+    bot.add_cog(Links(bot))
