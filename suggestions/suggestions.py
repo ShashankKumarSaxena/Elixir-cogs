@@ -2,7 +2,7 @@
 import redbot
 from discord.ext import commands
 import discord
-import asyncpg
+
 
 class Suggest(commands.Cog):
     def __init__(self,bot):
