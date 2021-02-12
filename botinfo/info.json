@@ -1,0 +1,19 @@
+{
+    "name": "Botinfo",
+    "short": "This cog is dedicated to give information about elixir",
+    "description": "This cog is dedicated to give information about elixir",
+    "end_user_data_statement": "This cog does not persistently store any data or metadata about users.",
+    "install_msg": "Thank you for installing botinfo!",
+    "author": [
+        "scypher"
+    ],
+    "required_cogs": {},
+    "requirements": [],
+    "tags": [
+        "utility"
+    ],
+    "min_bot_version": "3.3.10",
+    "hidden": false,
+    "disabled": false,
+    "type": "COG"
+}
