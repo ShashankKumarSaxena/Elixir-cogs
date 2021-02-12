@@ -15,6 +15,6 @@ class Info(commands.Cog):
         em.add_field(name="discord.py",value="1.5.1",inline=True)
         em.add_field(name="Red version",value="3.4.5",inline=True)
         em.add_field(name="About Elixir",value=f"This bot is an instance of [Red, an open source Discord bot](https://github.com/Cog-Creators/Red-DiscordBot) created by [Twentysix](https://github.com/Twentysix26) and [improved by many.](https://github.com/Cog-Creators)",inline=False)
-        em.add_field(name="Story Behind Elixir",value="Elixir was made by Ronish and then developed by others elixir has its own [website](https://bit.ly/elixirbot) now and is also on [Top.gg](https://top.gg/bot/732916004656513077) also now elixir has a [Status Page](https://elixir.betteruptime.com/)  for any support join the [support server](https://discord.gg/padK6GW)")
+        em.add_field(name="Story Behind Elixir",value="Elixir was made by Ronish and then developed by others elixir has its own [website](https://bit.ly/elixirbot) now and is also on [Top.gg](https://top.gg/bot/732916004656513077) also now elixir has a [Status Page](https://elixir.betteruptime.com/)  for any support join the [support server](https://discord.gg/padK6GW)",inline=False)
         em.set_thumbnail(url="https://cdn.discordapp.com/avatars/732916004656513077/8636fca205b8c8eb71cd5f1c5ec91cd9.png?size=1024")
         await ctx.send(embed=em)
