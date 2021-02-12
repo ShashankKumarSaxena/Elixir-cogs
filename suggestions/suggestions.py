@@ -1,6 +1,6 @@
-# from redbot.core import commands #------> GIVING PROBLEMS
+from redbot.core import commands #------> GIVING PROBLEMS
 import redbot
-from discord.ext import commands
+# from discord.ext import commands
 import discord
 
 
