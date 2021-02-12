@@ -5,10 +5,10 @@ class Info(commands.Cog):
     def __init__(self,bot):
         self.bot = bot
     
-    @commands.command(aliases=["info"])
+    @commands.command()
     @commands.bot_has_guild_permissions(send_messages=True)
     @commands.has_guild_permissions(send_messages=True)
-    async def botinfo(self,ctx):
+    async def about(self,ctx):
         em = discord.Embed(description=" ",color=discord.Color.purple())
         em.add_field(name="Instance owned by",value="Ronish:- Owner and developer of Elixir\nMicky:- Developer and host provider of Elixir\n𝓢𝓬𝔂𝓹𝓱𝓮𝓻:- Developer and cog creator of Elixir\nRj:- Management of Elixir",inline=False)
         em.add_field(name="Python",value="3.8.5",inline=True)
