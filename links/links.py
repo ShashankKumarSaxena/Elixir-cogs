@@ -16,4 +16,5 @@ class Links(commands.Cog):
         em.add_field(name="Elixir Premium:-",value=f"[Premium](https://bit.ly/elixirpremium)",inline=False)
         em.add_field(name="Elixir top.gg:-",value=f"[top.gg](https://top.gg/bot/732916004656513077)",inline=False)
         em.add_field(name="Elixir Status:-",value=f"[Status](https://elixir.betteruptime.com/)",inline=False)
+        em.set_thumbnail(url="https://cdn.discordapp.com/avatars/732916004656513077/8636fca205b8c8eb71cd5f1c5ec91cd9.png?size=256")
         await ctx.send(embed=em)
