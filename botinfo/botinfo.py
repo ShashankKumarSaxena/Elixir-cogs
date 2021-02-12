@@ -5,7 +5,7 @@ class Info(commands.Cog):
     def __init__(self,bot):
         self.bot = bot
     
-    @commands.command()
+    @commands.command(aliases=["botinfo"])
     @commands.bot_has_guild_permissions(send_messages=True)
     @commands.has_guild_permissions(send_messages=True)
     async def about(self,ctx):
