@@ -150,8 +150,8 @@ class nqn(commands.Cog):
 		except KeyError:
 			pass
 
-def setup(bot):
-	bot.add_cog(nqn(bot))
-	print("NQN is ready to give free nitro")
+# def setup(bot):
+# 	bot.add_cog(nqn(bot))
+# 	print("NQN is ready to give free nitro") # NO NEED FOR RED
 
     
