@@ -5,7 +5,7 @@ import discord
 import json
 import sys
 
-class nqn(commands.Cog):
+class NQN(commands.Cog):
 	def __init__(self, bot):
 		self.bot = bot
 	
