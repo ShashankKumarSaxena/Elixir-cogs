@@ -1,0 +1,19 @@
+{
+    "name": "NQN",
+    "short": "Don't have nitro but wanna use animated emojis?",
+    "description": "Don't have nitro but wanna use animated emojis?",
+    "end_user_data_statement": "This cog does not persistently store any data or metadata about users.",
+    "install_msg": "Thank you for installing nqn!",
+    "author": [
+        "scypher"
+    ],
+    "required_cogs": {},
+    "requirements": [],
+    "tags": [
+        "utility"
+    ],
+    "min_bot_version": "3.3.10",
+    "hidden": false,
+    "disabled": false,
+    "type": "COG"
+}
