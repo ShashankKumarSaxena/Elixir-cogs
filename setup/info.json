@@ -1,0 +1,19 @@
+{
+    "name": "Setup",
+    "short": "Just a simple but noice setup command.",
+    "description": "Just a simple but noice setup command.",
+    "end_user_data_statement": "This cog does not persistently store any data or metadata about users.",
+    "install_msg": "Thank you for installing setup!",
+    "author": [
+        "scypher"
+    ],
+    "required_cogs": {},
+    "requirements": [],
+    "tags": [
+        "utility"
+    ],
+    "min_bot_version": "3.3.10",
+    "hidden": false,
+    "disabled": false,
+    "type": "COG"
+}
