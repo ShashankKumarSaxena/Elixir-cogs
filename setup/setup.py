@@ -64,3 +64,4 @@ class Setup(commands.Cog):
         own = await self.bot.fetch_user(728183506953437185)
         em.set_author(name=f"{own.name}#{own.discriminator}",icon_url=own.avatar_url)
         await setup_channel.send(embed=em)
+        await ctx.send(f'The setup has been completed successfully in {setup_channel.mention} !')
