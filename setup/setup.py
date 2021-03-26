@@ -61,6 +61,6 @@ class Setup(commands.Cog):
         em.add_field(name="What is this channel for?",value="This channel is made for you to get regular updates about bot. All the changelogs/update logs/bug fixes / official giveaways will be sent here.",inline=False)
         em.add_field(name="__Important Notes__",value="• Do not rename this channel.\n• You can test bot's commands here if you want to.",inline=False)
         em.add_field(name="__Important Links__",value=f"[Support Server](https://discord.gg/padK6GW) | [Invite Me](https://top.gg/bot/732916004656513077/invite)")
-        own = self.bot.get_user(728183506953437185)
+        own = await self.bot.fetch_user(728183506953437185)
         em.set_author(name=f"{own.name}#{own.discriminator}",icon_url=own.avatar_url)
         await setup_channel.send(embed=em)
