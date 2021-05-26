@@ -9,7 +9,6 @@ class Links(commands.Cog):
     @commands.command()
     @commands.bot_has_guild_permissions(send_messages=True)
     async def links(self,ctx):
-        img_header = "https://cdn.discordapp.com/attachments/758316351407259678/847036691821887528/unknown_1.gif"
         em = discord.Embed(description=" ",color=discord.Color.purple())
         em.add_field(name="🔗 Elixir Invite:-",value=f"[Elixir Invite](https://top.gg/bot/732916004656513077/invite)",inline=False)
         em.add_field(name="🔗 Elixir Support Server:-",value=f"[Support Server](https://discord.gg/padK6GW)",inline=False)
@@ -20,5 +19,5 @@ class Links(commands.Cog):
         em.add_field(name="🔗 Elixir Status:-",value=f"[Status](https://elixir.betteruptime.com/)",inline=False)
         em.add_field(name="🔗 Elixir Partner:-",value=f"[Elixir Partner](https://forms.gle/fFkpucye3fn9vbow8)",inline=False)
         em.set_thumbnail(url="https://cdn.discordapp.com/avatars/732916004656513077/8636fca205b8c8eb71cd5f1c5ec91cd9.png?size=256")
-        e.set_image(url=img_header)
+        em.set_image(url="https://cdn.discordapp.com/attachments/758316351407259678/847036691821887528/unknown_1.gif")
         await ctx.send(embed=em)
