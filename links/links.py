@@ -19,5 +19,5 @@ class Links(commands.Cog):
         em.add_field(name="🔗 Elixir Status:-",value=f"[Status](https://elixir.betteruptime.com/)",inline=False)
         em.add_field(name="🔗 Elixir Partner:-",value=f"[Elixir Partner](https://forms.gle/fFkpucye3fn9vbow8)",inline=False)
         em.set_thumbnail(url="https://cdn.discordapp.com/avatars/732916004656513077/8636fca205b8c8eb71cd5f1c5ec91cd9.png?size=256")
-        em.set_image(url="https://cdn.discordapp.com/attachments/758316351407259678/847036691821887528/unknown_1.gif")
+        em.set_image(url="https://cdn.discordapp.com/attachments/847072756025655318/847072882356912128/unknown.gif")
         await ctx.send(embed=em)
